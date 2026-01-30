@@ -15,7 +15,9 @@
 - index.html — основной HTML-файл
 - README.md — описание лабораторной работы
 - img/ — скриншоты
-
+- index2.html - изучение семантических тегов HTML
+- about.html - демонстрация семантических тегов HTML на своем примере
+- webpageCard.html - визитка студента
 ---
 ## Теги в HTML
 Структура парного тега:
@@ -35,4 +37,58 @@
 <hr>
 <a href="https://example.com">Ссылка</a>
 <img src="example.jpg" alt="Описание">
+<ol>
+    <li>Нумерованный</li>
+    <li>Список</li>
+</ol>
+<ul>
+    <li>Маркированный</li>
+    <li>Список 
+        <ol>
+            <li>Вложенный 1</li>
+            <li>Вложенный 2</li>
+        </ol>
+    </li>
+</ul>
+<input type="text" placeholder="Поле ввода">
+<textarea placeholder="Многострочное поле ввода" rows="4"></textarea>
+<select>
+        <option value="">Выпадающий</option>
+        <option value="">список</option>
+</select>
+<button type="submit">Кнопка</button>
+<label for="username">Подписанный элемент формы</label>
+<form></form>
+<table border="1">
+        <tr>
+            <th>Таблицы, столбец 1</th>
+            <th>столбец 2</th>
+            <th>столбец 3</th>
+        </tr>
+        <tr>
+            <td>значение 1</td>
+            <td>значение 2</td>
+            <td>значение 3</td>
+        </tr>
+</table>
+<header>
+        <h1>Шапка сайта или раздела</h1>
+        <nav>
+            <a href="#">Навигация</a>
+            <a href="#">по</a>
+            <a href="#">сайту</a>
+        </nav>
+</header>
+<main>
+    <h2>Основное содержание страницы</h2>
+    <section>
+        <h3>Логический раздел</h3>
+    </section>
+    <article>
+        <h3>Самостоятельный блок контента</h3>
+    </article>
+</main>
+<footer>
+    <p>Подвал сайта</p>
+</footer>
 ```
